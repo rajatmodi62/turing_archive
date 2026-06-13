@@ -1,6 +1,14 @@
+
+# # compile tex
+# xelatex -interaction=nonstopmode -file-line-error manuscript.tex
+
+
 conda activate turing 
 cd unpublished_drafts
-python process.py
+python process_two_pass.py
+
+
+
 
 # conda activate turing 
 # cd publications
@@ -21,3 +29,5 @@ python process.py
 # conda activate turing 
 # cd personal_documents
 # python process.py
+
+

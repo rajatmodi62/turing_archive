@@ -26,3 +26,11 @@ will see..
 # some resources that i need. 
 
 https://www.alanturing.net/index.htm
+
+
+just logging what i did 
+
+1. read pdf -> first pass thru gemini 2.5 flash lite at 150dpi of pdf 
+            -> combines latex code -> second pass thru gemini 2.5 pro to get consistent latex 
+            -> dump latex 
+            -> use xelatex to compile lol. 
