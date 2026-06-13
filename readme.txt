@@ -19,3 +19,10 @@ uggh -> deepseek, qwen?
 will see..
 
 
+
+
+# run vllm server 
+
+# some resources that i need. 
+
+https://www.alanturing.net/index.htm
