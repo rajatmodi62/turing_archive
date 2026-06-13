@@ -4,21 +4,6 @@ the archivist at kings college told me that there are so many things turing wrot
 
 will host it on my website in a nice viewer too. 
 
-[] start with a turing pdf 
-[] extract fig 
-[] extract ocr 
-[] ensure fig is in a correct place 
-[] ensure latex code works and compiles 
-[] ensure a combined pipeline is ready. 
-[] beautify whole thing in a single folder.
-[] expose as a shitty api lol
-use open source llm , cant afford to pay gemini lol. 
-needs some vlm mebbe . 
-
-uggh -> deepseek, qwen?
-will see..
-
-
 
 
 # run vllm server 
@@ -34,3 +19,6 @@ just logging what i did
             -> combines latex code -> second pass thru gemini 2.5 pro to get consistent latex 
             -> dump latex 
             -> use xelatex to compile lol. 
+todo: 
+
+write parallel xelatex, its single threaded, compile will be fast. 
